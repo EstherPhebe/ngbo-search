@@ -36,7 +36,7 @@ async function showSearch () {
                 q: userSearch
             }
         }
-        const res = await axios.get(`http://api.tvmaze.com/search/shows`, config)
+        const res = await axios.get(`https://api.tvmaze.com/search/shows`, config)
         const data = res.data
         console.log(data)
         info(data)  

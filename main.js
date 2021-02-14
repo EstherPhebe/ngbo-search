@@ -6,7 +6,7 @@ const searchButton = document.querySelector(".submit")
 const clear = document.querySelector(".clear i");
 
 //Event Listener
-searchButton.addEventListener("click",(e) => {
+formShow.addEventListener("click",(e) => {
     e.preventDefault()
     try {
         clearScreen()

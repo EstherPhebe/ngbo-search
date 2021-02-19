@@ -45,7 +45,6 @@ form {
 form input, form button {
     font-family: Montserrat, sans-serif;
     border: none;
-    padding: 0.6rem;
     outline: none;
     background-color: #f8f8f8;
     min-height: 36px;
@@ -53,6 +52,7 @@ form input, form button {
 
 form input {
     min-width: 20%;
+    padding: 0.2rem 0.6rem; 
 }
 
 form button {
@@ -60,6 +60,7 @@ form button {
     cursor: pointer;
     color: white;
     background-color: #146d6d;
+    padding: 0.6rem;
 }
 
 form button:hover {
